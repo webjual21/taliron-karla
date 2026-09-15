@@ -28,7 +28,8 @@ En los tres enlaces Taliria viene premarcada y la compra queda a tu nombre: 20 %
 
 - `guia/` — la guía comercial completa (PDF y versión web).
 - `demo/` — el kit de demo: negocios ficticios con sus datos. Ver [`demo/negocios-ficticios.md`](demo/negocios-ficticios.md).
-  - `clinica-dental/` — reseñas, pacientes, plantilla de presupuesto, tarifas, logo y fotos. Es el negocio del Instagram de demo.
+  - `clinica-dental/` — reseñas, pacientes, plantilla de presupuesto, tarifas, logo y fotos.
+  - `joyeria/` — fotos de producto para la demo de Instagram (la cuenta de pruebas es @depiday.bud; la contraseña te la pasa Alberto).
   - `gestoria/` — 20 facturas PDF de proveedores de un taller (para «contabiliza estas facturas»).
   - `inmobiliaria/` — ficha y fotos de un piso (para «sube el piso» y «publícalo en Instagram»).
   - `restaurante/` — reseñas, platos para la carta, facturas de proveedores y mensajes de reserva.

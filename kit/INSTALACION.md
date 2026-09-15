@@ -30,8 +30,10 @@ Conexiones que hay que dejar hechas (Taliron te guía en cada una):
   agenda y apúntalo». Prueba desde tu móvil personal con los mensajes de `demo/restaurante/reservas-whatsapp.md`.
 - **Agenda**: pídele «crea una agenda de citas de la clínica de lunes a viernes de 9:30 a 20:00 con citas de 30 min»
   y que la use Taliria. (Si Alberto te da un Google Calendar de demo, pídele «conecta este Google Calendar».)
-- **Instagram**: abre el navegador de Taliron (pídele «abre Instagram») e inicia sesión con la cuenta
-  @clinicasonrisanorte que te pasa Alberto. Marca «recordar». Igual con Facebook si vas a hacer la demo de anuncios.
+- **Instagram**: abre el navegador de Taliron (pídele «abre Instagram») e inicia sesión con la cuenta de pruebas
+  **@depiday.bud** (la contraseña te la pasa Alberto por WhatsApp; no está en este repositorio). Marca «recordar».
+  La primera vez Instagram puede pedir un código o un captcha: resuélvelo tú a mano una vez y ya queda.
+  Igual con Facebook si vas a hacer la demo de anuncios.
 - **Correo**: pídele «conecta mi Gmail» con la cuenta de demo que te pasa Alberto.
 
 ## 5 · Ensayar

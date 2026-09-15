@@ -5,12 +5,15 @@ Antes: copia la carpeta `demo/` a tu Escritorio con ese nombre. Taliron trabaja 
 Ensaya cada una hasta que salga sin pensar. Si algo falla en directo, tira de un vídeo y sigue.
 
 ## 1 · Publicar en Instagram (marketing · impresiona siempre) — 90 s
-> Haz una publicación para el Instagram de la Clínica Dental Sonrisa Norte con la foto
-> `demo/clinica-dental/fotos/paciente-sonrisa.jpg`. Texto cercano, dos frases, sobre lo bien que se sale de una
-> limpieza, con tres hashtags de Madrid, y súbela.
+El Instagram de demo es **@depiday.bud**, una cuenta de pruebas de Alberto (tienda de joyas). Da igual que no sea
+una clínica: lo que impresiona es ver el navegador abrirse, escribir y publicar solo.
+> Haz una publicación para el Instagram de Depiday con la foto `demo/joyeria/fotos/collar-dorado.jpg`. Texto
+> cercano de dos frases sobre el collar con piedra de nacimiento, tres hashtags de joyería, y súbela.
 
-Lo que ve el cliente: el navegador se abre solo, escribe el texto y la publicación aparece en @clinicasonrisanorte.
-Necesita el Instagram de demo con sesión iniciada en el navegador de Taliron.
+Si el cliente es una clínica, peluquería o restaurante y quieres que encaje más: «…con la foto
+`demo/clinica-dental/fotos/paciente-sonrisa.jpg`, texto sobre lo bien que se sale de una limpieza…» y aclaras
+que la cuenta es de pruebas.
+Necesita el Instagram de demo con sesión iniciada en el navegador de Taliron (ver `kit/INSTALACION.md`).
 
 ## 2 · Taliria contesta el WhatsApp (atención · la que más cierra) — 60 s
 Escribe TÚ desde tu móvil al WhatsApp de demo (el número de Taliria):

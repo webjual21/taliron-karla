@@ -26,6 +26,10 @@ logo por los del cliente cuando la demo sea personalizada.
 - 14 mesas dentro, 6 en terraza. Cocina de brasa: carnes ibéricas y pescado.
 - Archivos: `restaurante/` (reseñas, platos para la carta, facturas de proveedores, mensajes de reserva).
 
+## Depiday (joyería) — la cuenta REAL de pruebas de Instagram
+- Instagram: **@depiday.bud** (cuenta de pruebas de Alberto; la contraseña te la pasa él, no está en el repo).
+- Es la cuenta donde Taliron publica en la demo 1. Fotos de producto en `joyeria/fotos/` (collar, pulsera, pendientes).
+
 ## Otros (solo fotos, para Instagram)
 - Gimnasio Vital Fit (Zaragoza): `gimnasio/fotos/`.
 - Peluquería Estudio Vera (Bilbao): `peluqueria/fotos/`.
