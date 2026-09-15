@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="140" viewBox="0 0 520 140">
+  <rect width="520" height="140" fill="#ffffff"/>
+  <g transform="translate(20,20)">
+    <path d="M50 8c-12 0-18 8-24 8S14 8 2 8c-14 0-16 22-8 44 6 18 12 40 20 40 6 0 8-16 12-16s6 16 12 16c8 0 14-22 20-40 8-22 6-44-8-44z" fill="#2ec4b6" transform="translate(4,0) scale(0.95)"/>
+    <circle cx="66" cy="18" r="9" fill="#ff9f1c"/>
+  </g>
+  <text x="120" y="66" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#173753">Sonrisa Norte</text>
+  <text x="121" y="96" font-family="Helvetica, Arial, sans-serif" font-size="17" letter-spacing="4" fill="#2ec4b6">CLÍNICA DENTAL</text>
+</svg>

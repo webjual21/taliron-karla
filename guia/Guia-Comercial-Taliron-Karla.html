@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Guía comercial Taliron · Karla</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm 18mm 16mm; }
+  :root { --brasa:#e8590c; --tinta:#1a1a1a; --gris:#5f6368; --suave:#f4f1ec; --linea:#e3ded6; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; color: var(--tinta); font-size: 11.2pt; line-height: 1.45; margin: 0; }
+  h1 { font-size: 26pt; margin: 0 0 6px; line-height: 1.15; }
+  h2 { font-size: 16pt; color: var(--brasa); margin: 0 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--brasa); page-break-after: avoid; }
+  h3 { font-size: 12.5pt; margin: 16px 0 6px; page-break-after: avoid; }
+  p { margin: 0 0 8px; }
+  ul, ol { margin: 0 0 10px; padding-left: 20px; }
+  li { margin-bottom: 4px; }
+  .portada { height: 250mm; display: flex; flex-direction: column; justify-content: center; page-break-after: always; }
+  .portada .kicker { color: var(--brasa); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; font-size: 10pt; margin-bottom: 14px; }
+  .portada .sub { font-size: 14pt; color: var(--gris); margin-top: 10px; }
+  .portada .meta { margin-top: 40px; color: var(--gris); font-size: 10pt; }
+  .pagina { page-break-before: always; }
+  .caja { background: var(--suave); border-left: 4px solid var(--brasa); padding: 10px 14px; margin: 10px 0 14px; border-radius: 4px; page-break-inside: avoid; }
+  .caja.gris { border-left-color: #9aa0a6; }
+  .guion { background: #fff8f3; border: 1px solid #f3c9ad; padding: 10px 14px; margin: 8px 0 12px; border-radius: 4px; page-break-inside: avoid; }
+  .guion b { color: var(--brasa); }
+  .guion .dice { font-style: italic; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 14px; font-size: 10.2pt; page-break-inside: avoid; }
+  th, td { border: 1px solid var(--linea); padding: 6px 8px; vertical-align: top; text-align: left; }
+  th { background: var(--suave); font-weight: 700; }
+  .dos { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .check li { list-style: none; margin-left: -18px; }
+  .check li::before { content: "☐ "; color: var(--brasa); font-weight: 700; }
+  .peq { font-size: 9.6pt; color: var(--gris); }
+  .paso { display: flex; gap: 10px; margin-bottom: 8px; page-break-inside: avoid; }
+  .paso .n { flex: 0 0 26px; height: 26px; border-radius: 50%; background: var(--brasa); color: #fff; font-weight: 700; display: flex; align-items: center; justify-content: center; font-size: 10.5pt; }
+  .paso .t { flex: 1; }
+  .paso .t b { display: block; }
+  .tiempo { color: var(--gris); font-size: 9.6pt; font-weight: 400; }
+  .ojo { color: #b3261e; font-weight: 700; }
+  .pie { position: fixed; bottom: -8mm; right: 0; font-size: 8.5pt; color: var(--gris); }
+</style>
+</head>
+<body>
+
+<section class="portada">
+  <div class="kicker">Taliron · Guía comercial</div>
+  <h1>Cómo vender Taliron en una videollamada</h1>
+  <div class="sub">Guía para Karla: qué es, cómo se enseña, cómo se cierra y qué hacer después.</div>
+  <div class="meta">
+    Versión 1 · 15 de septiembre de 2026<br>
+    Preparada por Alberto Moreno · Taliron<br>
+    Uso interno. No enviar al cliente.
+  </div>
+</section>
+
+<!-- ===================== 1 ===================== -->
+<section class="pagina">
+<h2>1 · Qué es Taliron (lo que tienes que saber de memoria)</h2>
+
+<div class="caja">
+<b>Definición oficial (dila así):</b> «Taliron es un software de inteligencia artificial que opera como un trabajador digital dentro de tu empresa. Se integra con lo que tu empresa ya usa —correo, documentos, agenda, aplicaciones— y a partir de esos datos lee, cruza y da sentido a la información para ejecutar tareas de principio a fin: gestiona, clasifica, redacta, vigila plazos y te avisa de lo que importa. <b>Tú supervisas y decides; Taliron trabaja.</b>»
+</div>
+
+<h3>Las dos patas que SIEMPRE van juntas</h3>
+<ul>
+  <li><b>Utilidad:</b> hace el trabajo de verdad sobre los archivos, programas y WhatsApp del cliente. No da consejos: entrega la cosa hecha (el PDF, la cita en la agenda, la publicación subida, la factura contabilizada).</li>
+  <li><b>Simpleza:</b> se usa hablando o escribiendo normal, sin saber informática, sin configurar nada. «Si sabes escribir un WhatsApp, sabes usarlo». Listo en 10 minutos.</li>
+</ul>
+
+<h3>Qué NO es (esto te lo van a preguntar)</h3>
+<ul>
+  <li><b>No es ChatGPT.</b> ChatGPT te da deberes (texto que luego tú tienes que copiar, pegar, subir). Taliron los hace: entra en el programa, sube la publicación, apunta la cita, manda el WhatsApp.</li>
+  <li><b>No es una web ni una app del móvil.</b> Es un programa que se instala en el ordenador del negocio (Mac o Windows). Ahí es donde trabaja, con sus carpetas y sus programas.</li>
+  <li><b>No hay que programar nada.</b> Ni «automatizaciones», ni «flujos», ni «prompts». Se le pide como a un empleado.</li>
+</ul>
+
+<h3>Cómo funciona por dentro (lo justo para no pillarte)</h3>
+<table>
+  <tr><th style="width:32%">Pieza</th><th>Qué es y qué decir</th></tr>
+  <tr><td>Taliron (el programa)</td><td>Se instala en el ordenador del cliente. Una licencia = un ordenador. Mac (chip M1 o superior) o Windows 10/11.</td></tr>
+  <tr><td>Taliria (el WhatsApp)</td><td>Es Taliron atendiendo por WhatsApp: contesta clientes, da citas, coge reservas, 24 h. Necesita un segundo número (una SIM o un número virtual). Es un extra de 79 €/mes.</td></tr>
+  <tr><td>La cuenta de Claude</td><td>La inteligencia que lo mueve. La contrata el cliente en claude.ai (plan Pro, unos 20 €/mes). No es un cobro nuestro. Sin ella Taliron no trabaja. <b>Dilo siempre antes de cerrar, nunca después.</b></td></tr>
+  <tr><td>Instalación</td><td>10 minutos, acompañado por WhatsApp por Amaia (soporte). Vídeo de 2 min en taliron.com/instalacion.html.</td></tr>
+  <tr><td>Privacidad</td><td>Los datos se quedan en el ordenador del cliente. Taliron no sube sus carpetas a ningún sitio nuestro.</td></tr>
+</table>
+</section>
+
+<!-- ===================== 2 ===================== -->
+<section class="pagina">
+<h2>2 · Qué hace por cada tipo de negocio</h2>
+<p>Cada nicho tiene 4 «utilidades estrella». Son las que se enseñan en la demo y las que se citan en la llamada. Aprende las de los nichos que vayas a llamar esa semana.</p>
+
+<table>
+  <tr><th style="width:18%">Nicho</th><th>Las 4 utilidades estrella (lo que se le pide y lo que entrega)</th></tr>
+  <tr><td><b>Clínica dental</b></td><td>1) «Dale cita a esta paciente» → mira huecos reales, se los propone por WhatsApp y apunta la cita. 2) «Prepara 3 publicaciones para Instagram» → fotos + textos con su tono, listas. 3) «Lanza una campaña de ortodoncia» → anuncio en Facebook/Instagram con imagen, texto y público de su zona. 4) «Haz el presupuesto de estos dos implantes» → PDF con su membrete y formas de pago.</td></tr>
+  <tr><td><b>Gestoría / asesoría</b></td><td>1) «Contabiliza estas 20 facturas» → lee los PDF, saca base, IVA y proveedor, asiento listo para importar. 2) «Prepara el 303 de este cliente» → borrador con casillas rellenas. 3) «Redacta el escrito de alegaciones» → con normativa citada, en PDF. 4) «Contesta a los clientes que preguntan por su renta» → por WhatsApp con el estado real de cada expediente.</td></tr>
+  <tr><td><b>Inmobiliaria</b></td><td>1) «Sube este piso a Idealista» → con fotos, texto y precio, sin tocar nada. 2) «Contesta a los interesados» → por WhatsApp, cualifica y agenda visitas. 3) «Prepara el contrato de arras» → PDF listo. 4) «Publica el piso en Instagram» → foto + texto + subida.</td></tr>
+  <tr><td><b>Restaurante / bar</b></td><td>1) «Coge las reservas que llegan por WhatsApp» → contesta, mira mesas, apunta. 2) «Contesta a las reseñas de Google» → una respuesta distinta por reseña. 3) «Hazme la carta nueva» → PDF para imprimir + QR. 4) «Mete las facturas de proveedores» → cuánto has gastado y qué ha subido.</td></tr>
+  <tr><td><b>Abogados</b></td><td>1) Redactar escritos y demandas con su plantilla. 2) Resumir expedientes de 200 páginas. 3) Vigilar plazos y avisar. 4) Contestar a clientes por WhatsApp con el estado del caso.</td></tr>
+  <tr><td><b>Peluquería / estética</b></td><td>1) Citas por WhatsApp a cualquier hora. 2) Recordatorios el día antes. 3) Publicaciones de Instagram con sus fotos. 4) Recuperar clientas que llevan 3 meses sin venir.</td></tr>
+  <tr><td><b>Reformas</b></td><td>1) Presupuesto en 5 minutos desde las fotos y medidas. 2) Contestar a los que piden presupuesto. 3) Seguimiento de obras y proveedores. 4) Facturas y cobros pendientes.</td></tr>
+  <tr><td><b>Gimnasio</b></td><td>1) Recuperar socios que no vienen. 2) Altas y bajas por WhatsApp. 3) Publicaciones y anuncios de la promo del mes. 4) Control de cobros.</td></tr>
+  <tr><td><b>Cualquier negocio</b></td><td>Correo, agenda, documentos, facturas, redes sociales, anuncios, atención por WhatsApp, informes. Si un negocio no está en la lista: pregunta qué 3 tareas le quitan más tiempo y ahí está la demo.</td></tr>
+</table>
+
+<div class="caja gris">
+<b>Material que ya existe y puedes usar en la llamada o mandar después:</b> un vídeo largo (5-6 min) por nicho en YouTube (gestoría, inmobiliaria, dental, restaurante, abogados, peluquería, reformas, gimnasio) y un reel de 1 min por nicho. El vídeo maestro general de Taliron: <b>youtu.be/oQXZdAj-XOE</b> (10 min). Landing por nicho: taliron.com/gestoria.html, /clinicas-dentales.html, /restaurantes.html, /abogados.html, /peluquerias.html, /reformas.html, /gimnasios.html, /inmobiliarias-prueba.html.
+</div>
+</section>
+
+<!-- ===================== 3 ===================== -->
+<section class="pagina">
+<h2>3 · Precios y oferta</h2>
+
+<table>
+  <tr><th>Concepto</th><th>Importe (sin IVA)</th><th>Cómo lo cuentas</th></tr>
+  <tr><td>Alta (instalación + formación + puesta en marcha)</td><td><b>497 €</b> base.<br>Nichos con pack a medida: hasta 1.500 € (lo fija Alberto por nicho).</td><td>«Un pago inicial de entre 500 y 1.500 € según el negocio, que incluye dejarlo instalado, formado y trabajando en lo tuyo.»</td></tr>
+  <tr><td>Suscripción Taliron</td><td><b>99 €/mes</b></td><td>«Menos que una hora de un empleado a la semana.» Sin permanencia.</td></tr>
+  <tr><td>Taliria (WhatsApp 24 h)</td><td><b>+79 €/mes</b></td><td>«El que atiende el WhatsApp del negocio a las 11 de la noche.»</td></tr>
+  <tr><td>Cuenta de Claude</td><td>~20 €/mes (la paga el cliente a Claude)</td><td>Se dice siempre, con naturalidad: «la inteligencia la contratas tú directamente, unos 20 € al mes».</td></tr>
+  <tr><td>Soporte</td><td>Incluido</td><td>WhatsApp de soporte para la instalación y las dudas del día a día (Amaia).</td></tr>
+  <tr><td><b>Prueba gratis 7 días</b></td><td><b>0 €, sin tarjeta</b></td><td>La carta que te guardas para el «me lo pienso». Lo instala, lo forma con ayuda por WhatsApp y si no le gusta no paga nada.</td></tr>
+</table>
+
+<h3>Orden de la oferta (no lo cambies)</h3>
+<ol>
+  <li>Primero <b>el valor</b>: lo que ha visto en la demo aplicado a su negocio, y cuántas horas a la semana son.</li>
+  <li>Después <b>el precio completo</b>: alta + mensualidad (+ Taliria si le interesa el WhatsApp) + Claude.</li>
+  <li>Cierre directo: «¿Lo montamos esta semana?»</li>
+  <li>Solo si duda: <b>la prueba gratis</b>. Nunca la ofrezcas antes de haber pedido la venta.</li>
+</ol>
+
+<div class="caja">
+<b>Cómo funciona la prueba (esto es lo que se lleva el cliente):</b> 7 días gratis, sin tarjeta. Rellena nombre, email y WhatsApp en la web y recibe su licencia al momento. Instala con ayuda de Amaia por WhatsApp. El día 7, si quiere seguir, añade la tarjeta y se cobra el alta; a partir del día 30 empieza la mensualidad. Si no añade tarjeta, Taliron se apaga solo y no se cobra nada.
+<br><span class="peq">Ojo: la prueba de 7 días va con el alta estándar de 497 €. Si el cliente es de un nicho con precio superior, el alta se cobra aparte con un enlace de pago que te pasa Alberto.</span>
+</div>
+</section>
+
+<!-- ===================== 4 ===================== -->
+<section class="pagina">
+<h2>4 · Los cuatro tipos de llamada</h2>
+<p>No es lo mismo un empresario que ya ha hablado con Carlos que uno que ha dejado el teléfono en un anuncio. Cada tipo tiene un objetivo distinto y un guion de entrada distinto.</p>
+
+<table>
+  <tr><th style="width:22%">Tipo</th><th style="width:22%">Objetivo de la 1ª llamada</th><th>Cómo entras</th></tr>
+  <tr><td><b>A · Caliente</b><br><span class="peq">Carlos ya le ha contado algo y quiere la videollamada</span></td><td>Hacer la demo y cerrar (venta o prueba) en esa misma videollamada.</td><td>Ya está agendado o lo agendas tú por WhatsApp. Antes de la llamada preparas su ficha (apartado 5). Es la llamada de 30 min del apartado 6.</td></tr>
+  <tr><td><b>B · Templado</b><br><span class="peq">Carlos te da el teléfono: «llama de mi parte»</span></td><td><b>Solo agendar</b> la videollamada. No vendas por teléfono.</td><td>Llamada de 3 min: «Hola X, soy Karla, te llamo de parte de Carlos. Me ha dicho que te comentó lo de Taliron. Te lo enseño en 20 minutos con tu propio negocio, en una videollamada: ¿te viene mejor mañana a las 10 o el jueves a las 16?» Confirmas por WhatsApp con el enlace.</td></tr>
+  <tr><td><b>C · Lead de anuncio</b><br><span class="peq">Ha dejado sus datos en la publicidad</span></td><td>Agendar la videollamada en menos de 24 h desde que deja los datos.</td><td>Llamas en cuanto entra (cada hora que pasa, la mitad de probabilidad). «Has pedido información de Taliron para tu [clínica]. Te lo enseño en 20 minutos funcionando con tu negocio, ¿cuándo te viene bien?» Si no coge: WhatsApp con el reel de su nicho + dos horas para elegir.</td></tr>
+  <tr><td><b>D · Frío</b><br><span class="peq">Nadie le ha hablado de nosotros</span></td><td>Conseguir 20 minutos. Nada más.</td><td>Entra por un dolor concreto y visible de SU negocio, no por «inteligencia artificial»: «He visto que no cogéis reservas por WhatsApp fuera de horario / que lleváis 3 semanas sin publicar / que tenéis 14 reseñas sin contestar. Tengo algo que lo hace solo y os lo enseño en 20 minutos». Mide cuántas llamadas hacen falta por cada demo agendada y decidimos con datos.</td></tr>
+</table>
+
+<div class="caja gris">
+<b>Regla de oro:</b> por teléfono no se vende Taliron, se agenda la demo. Lo que vende es <b>verlo moverse</b> en la pantalla. Todo lo que hagas por teléfono o WhatsApp sirve para llegar a la pantalla compartida.
+</div>
+
+<h3>Cuánto dura cada cosa</h3>
+<ul>
+  <li>Llamada para agendar (B, C, D): 3 minutos. Si se alarga, es que estás vendiendo por teléfono.</li>
+  <li>Videollamada de demo (A): 25 a 35 minutos. Menos de 20 no da tiempo a la demo; más de 40 se enfría.</li>
+  <li>Seguimiento: WhatsApp el mismo día y a las 48 h. Al tercer silencio, se para.</li>
+</ul>
+</section>
+
+<!-- ===================== 5 ===================== -->
+<section class="pagina">
+<h2>5 · Antes de la videollamada: la ficha (10 minutos)</h2>
+<p>La diferencia entre una demo que impresiona y una que «está bien» es que la demo hable de SU negocio. Diez minutos antes de cada videollamada rellenas esta ficha.</p>
+
+<table>
+  <tr><th style="width:30%">Dato</th><th>Dónde lo sacas</th></tr>
+  <tr><td>Nombre del negocio, ciudad, qué hace exactamente</td><td>Google, su web.</td></tr>
+  <tr><td>Su Instagram: última publicación (fecha), cuántos seguidores</td><td>Instagram. Si lleva semanas sin publicar, esa es tu demo de contenido.</td></tr>
+  <tr><td>Sus reseñas de Google: cuántas sin contestar, la última mala</td><td>Google Maps. Contestar una reseña real suya en directo es una de las demos que más impacta.</td></tr>
+  <tr><td>Cómo atiende: teléfono, WhatsApp, formulario</td><td>Su web y su ficha de Google. Si tiene WhatsApp, la demo de Taliria es obligatoria.</td></tr>
+  <tr><td>Un documento típico de su trabajo</td><td>Presupuesto, contrato, factura, carta, escrito. Lo preparas con datos inventados pero con SU nombre y su logo (lo sacas de la web).</td></tr>
+  <tr><td>Su dolor probable (2 frases)</td><td>Lo que Carlos te haya contado + lo que has visto. Lo confirmas en la llamada, no lo das por hecho.</td></tr>
+</table>
+
+<h3>Eliges 2 demos, no 5</h3>
+<ul>
+  <li><b>Demo 1, personalizada:</b> la que ataca su dolor y lleva su nombre, su logo o su reseña real. Es la que le hace decir «ostras».</li>
+  <li><b>Demo 2, de la recámara:</b> una de las rápidas (apartado 8) que se ve moverse: el navegador abriéndose, la publicación subiéndose, el WhatsApp contestando.</li>
+  <li>El resto se cuenta, no se enseña. Si pide ver algo más y da tiempo, tienes la recámara.</li>
+</ul>
+
+<div class="caja">
+<b>Checklist técnica antes de cada videollamada</b>
+<ul class="check">
+  <li>Taliron abierto en tu ordenador con la licencia de demo activa y la cuenta de Claude conectada.</li>
+  <li>Carpeta «Demo [nicho]» en el escritorio con los archivos preparados (facturas, fotos, el documento con su logo).</li>
+  <li>Instagram de demo abierto en el navegador y con sesión iniciada. Correo de demo abierto.</li>
+  <li>Móvil con el WhatsApp de demo a mano, para escribirle a Taliria en directo y que el cliente vea la respuesta.</li>
+  <li>Notificaciones del ordenador silenciadas. Solo compartes la ventana de Taliron y el navegador, no toda la pantalla.</li>
+  <li>Enlace de la prueba gratis copiado y listo para pegar en el chat de la videollamada.</li>
+</ul>
+</div>
+</section>
+
+<!-- ===================== 6 ===================== -->
+<section class="pagina">
+<h2>6 · La videollamada, paso a paso (30 minutos)</h2>
+
+<div class="paso"><div class="n">1</div><div class="t"><b>Apertura <span class="tiempo">2 min</span></b>
+Quién eres, de parte de quién, qué va a pasar y cuánto dura. Pides permiso para hacer preguntas y le anuncias que le vas a enseñar el programa funcionando con su negocio.
+<div class="guion"><span class="dice">«Hola [nombre], soy Karla, de Taliron. Carlos me habló de ti y me dijo que tenías curiosidad. Lo que vamos a hacer en estos 25 minutos: te hago tres preguntas sobre cómo trabajáis, te enseño el programa funcionando con cosas de tu [clínica], y al final tú decides si tiene sentido. ¿Te parece?»</span></div>
+</div></div>
+
+<div class="paso"><div class="n">2</div><div class="t"><b>Diagnóstico <span class="tiempo">5 min</span></b>
+Cuatro preguntas. Escuchas y apuntas sus palabras exactas, porque las vas a repetir en el cierre.
+<div class="guion">
+<b>1.</b> <span class="dice">«¿Qué tareas te comen más tiempo cada semana y no te dan dinero?»</span><br>
+<b>2.</b> <span class="dice">«¿Quién contesta el WhatsApp y el teléfono cuando estáis cerrados o a tope?»</span><br>
+<b>3.</b> <span class="dice">«¿Cuánto tardas en [presupuesto / contabilizar las facturas / subir un piso / contestar reseñas]?»</span><br>
+<b>4.</b> <span class="dice">«Si eso lo hiciera alguien por ti, ¿qué harías con esas horas?»</span>
+</div>
+</div></div>
+
+<div class="paso"><div class="n">3</div><div class="t"><b>Explicación <span class="tiempo">3 min</span></b>
+La definición oficial en tus palabras, más las dos patas. Sin tecnicismos. Termina anticipando la desconfianza: esa frase es el puente a la demo.
+<div class="guion"><span class="dice">«Taliron es un programa que se instala en tu ordenador y trabaja como un empleado más: entra en tu correo, en tus carpetas, en tu Instagram, en tu WhatsApp, y hace las tareas de principio a fin. Tú se lo pides escribiendo normal, como un WhatsApp, y él lo deja hecho. No es ChatGPT: ChatGPT te da un texto y tú tienes que hacer el resto; Taliron lo hace. Sé que dicho así suena demasiado bonito. Por eso no te lo voy a contar: te lo voy a enseñar. Comparto pantalla.»</span></div>
+</div></div>
+
+<div class="paso"><div class="n">4</div><div class="t"><b>Demo en directo <span class="tiempo">10 min</span></b>
+Demo 1 personalizada, luego demo 2 de la recámara. Narra lo que va pasando mientras Taliron trabaja («mira, está abriendo tu Instagram... ya ha escrito el texto... lo está subiendo»). Silencio mientras se ve el resultado. Y la pregunta:
+<div class="guion"><span class="dice">«Esto que acabas de ver, ¿cuánto te habría llevado a ti?»</span></div>
+<span class="peq">Si algo falla en directo: no te disculpes, tira de un vídeo de la recámara («te enseño el de ayer») y sigue. El cliente valora más la calma que la perfección.</span>
+</div></div>
+
+<div class="paso"><div class="n">5</div><div class="t"><b>Aterrizar a su negocio <span class="tiempo">3 min</span></b>
+Repites sus palabras del diagnóstico y las conviertes en tareas concretas que Taliron haría el lunes.
+<div class="guion"><span class="dice">«Me has dicho que los presupuestos te llevan una hora cada uno y que nadie coge el WhatsApp a partir de las 8. Con Taliron el lunes tendrías: presupuestos en 5 minutos con tu plantilla, y el WhatsApp contestando y dando citas hasta las 11 de la noche. Eso son unas [X] horas a la semana que te vuelven.»</span></div>
+</div></div>
+
+<div class="paso"><div class="n">6</div><div class="t"><b>Oferta y precio <span class="tiempo">3 min</span></b>
+Precio completo, sin rodeos, en el orden del apartado 3. Incluye lo de Claude. Y te callas.
+<div class="guion"><span class="dice">«Funciona así: un alta de [497 €] que incluye instalarlo, formarlo con tus cosas y dejarlo trabajando, con soporte por WhatsApp. Después, 99 € al mes, sin permanencia. Si quieres que atienda tu WhatsApp, son 79 € más al mes. Y la inteligencia la contratas tú a Claude, unos 20 € al mes. ¿Lo montamos esta semana?»</span></div>
+</div></div>
+
+<div class="paso"><div class="n">7</div><div class="t"><b>Cierre <span class="tiempo">3 min</span></b>
+Tres salidas posibles:
+<ul>
+  <li><b>Sí:</b> le mandas el enlace de compra en el chat y lo hace contigo en la llamada. Le presentas a Amaia por WhatsApp para la instalación.</li>
+  <li><b>«Me lo pienso» / «lo hablo con mi socio»:</b> primero una pregunta («¿qué es lo que te hace dudar: el precio, si funcionará en tu caso o el momento?»), respondes esa objeción (apartado 9) y entonces sacas la prueba:</li>
+</ul>
+<div class="guion"><span class="dice">«Te propongo otra cosa: pruébalo 7 días gratis, sin tarjeta. Lo instalas hoy con Amaia por WhatsApp, lo pones a hacer los presupuestos y el WhatsApp de verdad, y el día 7 decides. Si no te convence, no pagas nada. Te paso el enlace ahora y lo rellenamos juntos, es un minuto.»</span></div>
+<ul>
+  <li><b>No:</b> preguntas por qué (una vez, sin insistir), lo apuntas y le dejas el vídeo de su nicho. Se acabó.</li>
+</ul>
+</div></div>
+
+<div class="paso"><div class="n">8</div><div class="t"><b>Después de colgar <span class="tiempo">5 min</span></b>
+Apuntas en la hoja de seguimiento (apartado 10), mandas el WhatsApp de resumen y, si ha empezado la prueba, avisas a Amaia con nombre, email, licencia y Mac o Windows.
+</div></div>
+</section>
+
+<!-- ===================== 7 ===================== -->
+<section class="pagina">
+<h2>7 · Frases que funcionan (y las que no)</h2>
+
+<div class="dos">
+<div>
+<h3>Di esto</h3>
+<ul>
+  <li>«Le hablas como a un empleado y lo hace.»</li>
+  <li>«Si sabes escribir un WhatsApp, sabes usarlo.»</li>
+  <li>«No te da un texto: te deja la tarea hecha.»</li>
+  <li>«Tú supervisas y decides; Taliron trabaja.»</li>
+  <li>«Se instala en tu ordenador; tus datos se quedan en tu ordenador.»</li>
+  <li>«En 10 minutos está trabajando, con Amaia acompañándote por WhatsApp.»</li>
+  <li>«Sin permanencia. Si un mes no te sirve, lo paras.»</li>
+  <li>«¿Cuánto te habría llevado esto a ti?»</li>
+</ul>
+</div>
+<div>
+<h3>No digas esto</h3>
+<ul>
+  <li>«Inteligencia artificial» como argumento. Es un medio; vende la tarea hecha.</li>
+  <li>«Es como ChatGPT pero…». Nunca compares hacia abajo. Di que no es ChatGPT.</li>
+  <li>«Automatizaciones», «flujos», «prompts», «agentes», «API». El cliente se asusta.</li>
+  <li>«Lo montamos nosotros.» Lo monta él con ayuda; es sencillo y así lo siente suyo.</li>
+  <li>«Hace de todo.» Es verdad pero no se lo cree. Di tres tareas concretas de su negocio.</li>
+  <li>Prometer cosas que no has visto hacer. Si no lo sabes: «lo pruebo y te digo mañana».</li>
+  <li>«Ahora mismo tenemos una oferta…» antes de haber enseñado el valor.</li>
+</ul>
+</div>
+</div>
+
+<h3>Mensajes de WhatsApp listos</h3>
+<div class="guion">
+<b>Confirmar la videollamada (tipo B o C):</b><br>
+<span class="dice">«Hola [nombre], soy Karla, de Taliron. Como hemos hablado, el [jueves a las 16:00] te enseño el programa funcionando con tu [clínica]. Te dejo el enlace de la videollamada: [enlace]. Son 25 minutos. Si quieres ir viendo algo antes, este es un vídeo de un minuto: [reel de su nicho].»</span>
+</div>
+<div class="guion">
+<b>Después de la demo, si ha empezado la prueba:</b><br>
+<span class="dice">«[Nombre], ya tienes tu prueba de 7 días activa. Tu licencia te ha llegado por correo (mira en spam si no la ves). Escríbele ahora a Amaia, que te acompaña en la instalación, en este enlace: [wa.me de Amaia con su email y licencia]. En 10 minutos lo tienes trabajando. Yo te escribo el [día 3] para ver qué tal.»</span>
+</div>
+<div class="guion">
+<b>Después de la demo, si se lo piensa:</b><br>
+<span class="dice">«Gracias por el rato, [nombre]. Te dejo el vídeo completo de Taliron para [su nicho] ([enlace YouTube]) y lo que hemos visto hoy: [las 2 demos]. Cuando lo hables con [su socio], la prueba de 7 días gratis sigue ahí: [enlace]. Te escribo el [día] por si tienes dudas.»</span>
+</div>
+<div class="guion">
+<b>Seguimiento a las 48 h (una vez):</b><br>
+<span class="dice">«[Nombre], ¿pudiste ver el vídeo? Si te queda alguna duda, te la resuelvo en 5 minutos por aquí o por llamada.»</span>
+</div>
+</section>
+
+<!-- ===================== 8 ===================== -->
+<section class="pagina">
+<h2>8 · El kit de demo: la recámara</h2>
+<p>Estas son las demos que tienes que tener ensayadas hasta poder hacerlas con los ojos cerrados. Duran entre 60 y 120 segundos, se ven moverse en pantalla y salen bien siempre porque los datos están preparados.</p>
+
+<table>
+  <tr><th style="width:24%">Demo</th><th>Lo que le pides a Taliron (literal)</th><th style="width:26%">Lo que ve el cliente</th></tr>
+  <tr><td><b>1. Publicar en Instagram</b><br><span class="peq">Marketing · impresiona siempre</span></td><td>«Haz una publicación para el Instagram de [negocio demo] con la foto de la carpeta Demo, texto en tono cercano y súbela.»</td><td>El navegador se abre solo, escribe el texto y la publicación aparece en el Instagram de demo.</td></tr>
+  <tr><td><b>2. Taliria contesta el WhatsApp</b><br><span class="peq">Atención · la que más cierra</span></td><td>Tú escribes desde tu móvil al WhatsApp de demo: «Hola, quería cita para una limpieza el jueves por la tarde».</td><td>Taliria contesta en segundos, propone dos horas y apunta la cita en la agenda. Enseñas la agenda.</td></tr>
+  <tr><td><b>3. Contestar reseñas de Google</b><br><span class="peq">Reputación · personalizable con SUS reseñas</span></td><td>«Contesta a estas 5 reseñas de Google» (copiadas de su ficha real a un archivo).</td><td>Cinco respuestas distintas, con su tono, listas para pegar. Mejor aún si tiene Google Business conectado en la demo.</td></tr>
+  <tr><td><b>4. Presupuesto / documento con su logo</b><br><span class="peq">Administración · personalizada</span></td><td>«Haz el presupuesto de [dos implantes / la reforma del baño / el piso de la calle X] con la plantilla de [negocio] y estos datos.»</td><td>Un PDF con SU logo que se abre en pantalla. Silencio y que lo mire.</td></tr>
+  <tr><td><b>5. Contabilizar 20 facturas</b><br><span class="peq">Gestorías y cualquier negocio</span></td><td>«Contabiliza las facturas de la carpeta Demo/facturas y hazme el resumen por proveedor.»</td><td>Una tabla con base, IVA y proveedor, y el total. Lo que le lleva una tarde, en un minuto.</td></tr>
+  <tr><td><b>6. Anuncio en Facebook e Instagram</b><br><span class="peq">Marketing · para los que ya hacen publicidad</span></td><td>«Crea una campaña de [ortodoncia invisible] para [ciudad], con imagen y texto, en borrador.»</td><td>El Administrador de anuncios abriéndose y la campaña creada en borrador (no se publica).</td></tr>
+  <tr><td><b>7. Subir un piso a Idealista</b><br><span class="peq">Solo inmobiliarias</span></td><td>«Sube el piso de la carpeta Demo/piso a Idealista.»</td><td>El navegador rellenando el anuncio solo. En cuenta de demo, sin publicar.</td></tr>
+  <tr><td><b>8. Correo</b><br><span class="peq">Cualquier negocio</span></td><td>«Mira el correo de hoy, dime qué es urgente y contesta a los que piden presupuesto.»</td><td>Un resumen de 5 líneas y los borradores hechos en el correo de demo.</td></tr>
+</table>
+
+<div class="caja">
+<b>Lo que hay que tener montado para que la recámara funcione (lo prepara Alberto contigo):</b>
+<ul class="check">
+  <li>Taliron instalado en tu ordenador con una <b>licencia de demo</b> propia (con Taliria) y una cuenta de Claude.</li>
+  <li>Un <b>Instagram de demo</b> (negocio ficticio) con sesión iniciada en el navegador, y su página de Facebook.</li>
+  <li>Un <b>correo de demo</b> (Gmail) con 20 o 30 correos realistas: presupuestos pedidos, facturas, spam.</li>
+  <li>Un <b>WhatsApp de demo</b> (segundo número) vinculado a Taliria, con la agenda conectada.</li>
+  <li>Carpeta <b>Demo</b> en el escritorio con subcarpetas por nicho: facturas (PDF), fotos de pisos y platos, plantillas de presupuesto con logo, 5 reseñas en un archivo.</li>
+  <li>Vídeos de la recámara descargados en el ordenador (los reels y los maestros por nicho) por si falla la red.</li>
+</ul>
+</div>
+</section>
+
+<!-- ===================== 9 ===================== -->
+<section class="pagina">
+<h2>9 · Objeciones y cómo se contestan</h2>
+
+<table>
+  <tr><th style="width:30%">Te dicen</th><th>Contestas</th></tr>
+  <tr><td>«Es caro.»</td><td>«¿Comparado con qué? Un empleado a media jornada son 800 € al mes y no trabaja a las 11 de la noche. Esto son 99 €. Y el alta la recuperas con [dos presupuestos / tres citas] que hoy se te escapan.»</td></tr>
+  <tr><td>«No tengo tiempo de aprender otra herramienta.»</td><td>«Por eso no se aprende: se le pide. Lo has visto: le he escrito una frase. La instalación son 10 minutos con Amaia acompañándote por WhatsApp.»</td></tr>
+  <tr><td>«Ya uso ChatGPT.»</td><td>«Perfecto, entonces ya sabes lo que hace la IA. La diferencia es que ChatGPT te devuelve un texto y tú haces el resto. Taliron entra en tu Instagram, en tu agenda, en tus facturas, y lo deja hecho. Lo que acabas de ver no lo hace ChatGPT.»</td></tr>
+  <tr><td>«¿Y mis datos? Es delicado.»</td><td>«Se instala en tu ordenador y tus archivos se quedan en tu ordenador. No suben a ningún sitio nuestro. Nosotros ni los vemos.»</td></tr>
+  <tr><td>«¿Y si se equivoca?»</td><td>«Se equivoca como un empleado nuevo: por eso tú supervisas. Los presupuestos, las publicaciones, los escritos los revisas antes de que salgan. Lo que va solo, como las citas, sigue tus reglas y te avisa.»</td></tr>
+  <tr><td>«Lo tengo que hablar con mi socio.»</td><td>«Claro. ¿Te ayudo a explicárselo? Te paso el vídeo de 5 minutos para [su nicho] y, si quiere, le hago la misma demo. Mientras, la prueba gratis la podéis tener corriendo los 7 días sin compromiso.»</td></tr>
+  <tr><td>«Me lo pienso.»</td><td>«Claro. Dime una cosa: ¿lo que te frena es el precio, si funcionará en tu caso o el momento?» (contestas ESA objeción y luego ofreces la prueba).</td></tr>
+  <tr><td>«No tengo un segundo número de WhatsApp.»</td><td>«Para Taliria hace falta uno, sí: una SIM de prepago de 5 € o un número virtual. Empieza sin Taliria si quieres y lo añades cuando lo tengas.»</td></tr>
+  <tr><td>«¿Funciona con mi programa de gestión / mi agenda?»</td><td>«Trabaja con lo que tienes en el ordenador y en el navegador, como lo haría una persona. Dime cuál es y lo compruebo antes de que empieces» (nunca prometas una integración que no has visto).</td></tr>
+  <tr><td>«¿Por qué hay que pagar a Claude aparte?»</td><td>«Porque la inteligencia la contratas tú directamente, con tu cuenta y tu privacidad, y así nosotros no te cobramos por uso. Son unos 20 € al mes.»</td></tr>
+  <tr><td>«Tengo Windows viejo / un Mac antiguo.»</td><td>«Necesita Windows 10 u 11, o un Mac con chip M1 o superior. Si no lo tienes, lo dejamos; no quiero que pagues por algo que no va a funcionar bien.»</td></tr>
+</table>
+</section>
+
+<!-- ===================== 10 ===================== -->
+<section class="pagina">
+<h2>10 · Paso a paso operativo</h2>
+
+<h3>Tus tres enlaces (los que pegas en la llamada)</h3>
+<div class="caja">
+<b>Venta directa, alta 497 €:</b> https://taliron.com/karla.html<br>
+<b>Venta directa, alta de nicho 1.500 €:</b> https://taliron.com/karla-nicho.html<br>
+<b>Prueba gratis 7 días, sin tarjeta:</b> https://taliron.com/comprar-prueba.html?origen=karla&amp;ref=karla<br>
+En los de venta directa el cliente paga hoy solo el alta y deja la tarjeta; la suscripción (99 €/mes, más 79 € si deja Taliria marcada) empieza a los 30 días. En los tres, Taliria viene premarcada y la compra queda a tu nombre: 20 % del primer pago de cada cliente. El cliente rellena sus datos en la propia videollamada.<br>
+<span class="peq">Límites de la prueba: una por email, por WhatsApp y por ordenador. Si un cliente ya la usó, no puede repetirla: habla con Alberto.</span>
+</div>
+<h3>Tus comisiones</h3>
+<p>Entras en <b>https://taliron.com/comisiones.html</b> con tu usuario (karla) y tu contraseña. Ves cada cobro de tus clientes, tu comisión, si está pagada o pendiente, y el recibo de cada pago que te hagamos.</p>
+
+<h3>Qué pasa después (para que sepas contarlo)</h3>
+<ol>
+  <li>Página «Ya estás dentro» con su licencia, las descargas y un botón de WhatsApp a Amaia (+34 632 625 048) con el mensaje ya escrito.</li>
+  <li>Amaia le acompaña en la instalación: descarga, licencia, cuenta de Claude, primer «hola» y conexiones. Tú <b>no haces soporte técnico</b>: lo pasas a Amaia.</li>
+  <li>El sistema le manda correos a las 3 h (si no ha instalado), 24 h, día 3, día 5 y día 6.</li>
+  <li>Día 7: si ha añadido tarjeta en taliron.com/cuenta.html se cobra el alta y sigue; si no, se apaga solo. Tu llamada de seguimiento va el <b>día 3</b> (ya lo tiene instalado y ha visto algo) y el <b>día 6</b> (decisión).</li>
+</ol>
+
+<h3>Venta directa (cuando dicen que sí sin prueba)</h3>
+<ul>
+  <li>Alta estándar 497 €: le pegas <b>taliron.com/karla.html</b>. Pone su email, paga el alta y deja la tarjeta. Licencia al momento por correo.</li>
+  <li>Alta de nicho 1.500 € (pack a medida del sector): le pegas <b>taliron.com/karla-nicho.html</b>. Igual que el anterior. Después avisas a Alberto con el nicho para que le active el pack.</li>
+  <li>En los dos, la mensualidad no se cobra hoy: empieza a los 30 días. Díselo así: «hoy solo el alta».</li>
+</ul>
+
+<h3>Tu hoja de seguimiento (una fila por contacto)</h3>
+<table>
+  <tr><th>Fecha</th><th>Nombre / negocio</th><th>Nicho</th><th>Origen (Carlos / anuncio / frío)</th><th>Tel / email</th><th>Estado</th><th>Próximo paso y fecha</th><th>Licencia</th></tr>
+  <tr><td colspan="8" class="peq">Estados: contactado · demo agendada · demo hecha · prueba activa · cliente · no interesa. Alberto te da acceso a la hoja compartida.</td></tr>
+</table>
+
+<h3>Reglas que no se saltan</h3>
+<ul>
+  <li><b>No mandes WhatsApps en frío masivos</b> desde ningún número de la empresa: nos cierran el número. En frío se llama; el WhatsApp va después de que él te haya escrito o cogido la llamada.</li>
+  <li>No prometas nada que no hayas visto hacer en tu propia pantalla. «Lo pruebo y te digo mañana» es una respuesta perfecta.</li>
+  <li>Lo de Claude (20 €/mes) se dice siempre antes de cerrar.</li>
+  <li>La prueba solo se ofrece después de haber pedido la venta.</li>
+  <li>El soporte técnico es de Amaia. Tú vendes y acompañas la decisión.</li>
+  <li>Precios sin IVA, siempre.</li>
+</ul>
+</section>
+
+<!-- ===================== 11 ===================== -->
+<section class="pagina">
+<h2>11 · Tu primera semana</h2>
+
+<table>
+  <tr><th style="width:18%">Día</th><th>Qué haces</th></tr>
+  <tr><td><b>Día 1 (hoy)</b></td><td>Llamada con Alberto: ves la demo como si fueras cliente, repasamos esta guía y hacemos un ensayo (Alberto hace de dueño de clínica). Te quedas con las 8 demos de la recámara apuntadas.</td></tr>
+  <tr><td><b>Día 2</b></td><td>Te instalan Taliron con tu licencia de demo y el kit (Instagram, correo, WhatsApp, carpeta Demo). Ensayas las demos 1, 2 y 4 hasta que salgan sin pensar. Ves el vídeo maestro (10 min) y dos maestros de nicho.</td></tr>
+  <tr><td><b>Día 3</b></td><td>Segundo ensayo con Alberto, esta vez él pone objeciones. Recibes los primeros contactos de Carlos (tipo A y B). Agendas las primeras 3 videollamadas.</td></tr>
+  <tr><td><b>Día 4 y 5</b></td><td>Primeras demos reales. Después de cada una, 5 minutos de notas: qué preguntó, dónde se enganchó, dónde dudó. Se lo mandas a Alberto.</td></tr>
+  <tr><td><b>Fin de semana 1</b></td><td>Revisión: cuántas llamadas, cuántas demos, cuántas pruebas, cuántas ventas. Con eso ajustamos el guion y decidimos si abrir el frío.</td></tr>
+</table>
+
+<h3>Los números que miramos</h3>
+<ul>
+  <li>Llamadas hechas → demos agendadas (objetivo: 1 de cada 3 en tipo B, 1 de cada 2 en tipo C).</li>
+  <li>Demos agendadas → demos hechas (objetivo: 8 de cada 10; si bajan, confirmar por WhatsApp la mañana de la demo).</li>
+  <li>Demos hechas → prueba o venta (objetivo: la mitad).</li>
+  <li>Pruebas → clientes al día 7 (objetivo: 1 de cada 3; aquí manda que lo instalen el primer día).</li>
+</ul>
+
+<div class="caja">
+<b>Resumen en una frase:</b> por teléfono se agenda, en la pantalla compartida se vende, con el precio completo se cierra, y la prueba gratis es la red de seguridad para el que duda. Todo lo demás es preparar bien la ficha y ensayar la recámara.
+</div>
+</section>
+
+</body>
+</html>

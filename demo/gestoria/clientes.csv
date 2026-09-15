@@ -1,0 +1,7 @@
+cliente,cif_nif,tipo,telefono,email,estado_renta_2025,pendiente
+Talleres Mecánicos Vidal SL,B46112233,Sociedad,+34 960 111 222,admin@talleresvidal.es,No aplica (IS),Facturas 3T sin contabilizar
+Marta Sáez Cuenca,12345678A,Autónoma (fisioterapeuta),+34 600 123 123,marta.saez@ejemplo.es,Presentada 20/06/2026 — a devolver 412 €,Nada
+Restaurante El Túria SL,B46998877,Sociedad,+34 960 333 444,gerencia@elturia.es,No aplica (IS),Modelo 303 3T
+Iván Prieto Solá,87654321B,Autónomo (fontanero),+34 600 456 456,ivan.prieto@ejemplo.es,Presentada 28/06/2026 — a pagar 1.130 € (fraccionada),Segundo plazo 5/11
+Clara Domínguez Ríos,11223344C,Particular,+34 600 789 789,clara.dominguez@ejemplo.es,Pendiente: falta certificado de retenciones,Pedir certificado
+Construcciones Beltrán y Hijos SL,B46556677,Sociedad,+34 960 555 666,oficina@beltranhijos.es,No aplica (IS),Alta de 2 trabajadores
